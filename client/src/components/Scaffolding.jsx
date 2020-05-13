@@ -1,10 +1,15 @@
 import React from 'react'
-// import { Grid, CircularProgress } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
+
+// component imports
+import TentacleOne from './TentacleOne'
 
 const Scaffolding = () => {
   return (
     <React.Fragment>
-      <h1>alright go go go game!</h1>
+      <Grid container>
+        <TentacleOne />
+      </Grid>
     </React.Fragment>
   )
 }

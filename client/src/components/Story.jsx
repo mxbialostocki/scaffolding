@@ -5,7 +5,6 @@ import Begin from './Begin'
 import Scaffolding from './Scaffolding'
 
 const Story = () => {
-
   const [ isInitialLoad, setIsInitialLoad ] = useState(true)
   const activePage = isInitialLoad ? <Begin clickHandler={setIsInitialLoad}/> : <Scaffolding />
 

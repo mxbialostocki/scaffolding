@@ -1,0 +1,73 @@
+{
+  "name": "scaffolding",
+  "version": "1.0.0",
+  "description": "ragged robin writes a building game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "build": "webpack --config webpack.prod.js",
+    "heroku-postbuild": "webpack --config webpack.prod.js",
+    "test": "test",
+    "dev": "webpack --config webpack.dev.js & nodemon server/src/index.js --watch server/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxbialostocki/scaffolding.git"
+  },
+  "keywords": [
+    "scaffolding",
+    "poetry",
+    "toyah",
+    "game"
+  ],
+  "author": "mxbialostocki, toyah-webb",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "babel-plugin-import",
+        {
+          "libraryName": "@material-ui/core",
+          "libraryDirectory": "esm",
+          "camel2DashComponentName": false
+        },
+        "core"
+      ]
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/mxbialostocki/scaffolding/issues"
+  },
+  "homepage": "https://github.com/mxbialostocki/scaffolding#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
+  }
+}

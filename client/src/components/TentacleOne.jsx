@@ -10,15 +10,10 @@ const TentacleOne = ({ clickHandler }) => {
         </Grid>
         <Grid item>
           <Button onClick={() => clickHandler('tentacle_one_depression')}>
-            {/* sets activeModule state to TentacleOneDepression */}
             <Typography>1. Start from scratch. You visit the local hardware store to enquire about different wood grains. You want everything to be perfect.</Typography>
           </Button>
-          <div role='button' onClick={() => clickHandler('tentacle_one_depression')}>
-            <Typography>1. Start from scratch. You visit the local hardware store to enquire about different wood grains. You want everything to be perfect.</Typography>
-          </div>
         </Grid>
-        {/* sets active Module to TentacleTwo */}
-        <Grid>
+        <Grid item>
           <Button onClick={() => clickHandler('tentacle_two')}>
             <Typography>2. Find a shortcut. Your friend is a builder, and they agree to help you out. There is some leftover stone from another site which they can use to lay the foundations. They can begin site preparations on, say, Monday? You accept their offer.</Typography>
           </Button>

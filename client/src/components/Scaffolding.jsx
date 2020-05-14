@@ -3,8 +3,12 @@ import { Grid } from '@material-ui/core'
 
 // component imports
 import TentacleOne from './TentacleOne'
-import TentacleTwo from './TentacleTwo'
 import TentacleOneDepression from './TentacleOneDepression'
+import TentacleTwo from './TentacleTwo'
+import TentacleTwoLooseLips from './TentacleTwoLooseLips'
+import TentacleThree from './TentacleThree'
+import TentacleThreeYoga from './TentacleThreeYoga'
+import TentacleFour from './TentacleFour'
 
 const Scaffolding = ({ module, clickHandler }) => {
   const yeah = (module) => {
@@ -13,14 +17,34 @@ const Scaffolding = ({ module, clickHandler }) => {
         <TentacleOne clickHandler={clickHandler} />
       )
     }
+    if (module === 'tentacle_one_depression') {
+      return (
+        <TentacleOneDepression clickHandler={clickHandler} />
+      )
+    }
     if (module === 'tentacle_two') {
       return (
         <TentacleTwo clickHandler={clickHandler} />
       )
     }
-    if (module === 'tentacle_one_depression') {
+    if (module === 'tentacle_two_loose_lips') {
       return (
-        <TentacleOneDepression clickHandler={clickHandler} />
+        <TentacleTwoLooseLips clickHandler={clickHandler} />
+      )
+    }
+    if (module === 'tentacle_three') {
+      return (
+        <TentacleThree clickHandler={clickHandler} />
+      )
+    }
+    if (module === 'tentacle_three_yoga') {
+      return (
+        <TentacleThreeYoga clickHandler={clickHandler} />
+      )
+    }
+    if (module === 'tentacle_four') {
+      return (
+        <TentacleFour clickHandler={clickHandler} />
       )
     }
   }

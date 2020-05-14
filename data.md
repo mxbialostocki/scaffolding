@@ -99,3 +99,9 @@ scaffolding.
 Below image: “Scaffolding is the negative space of the building.”
 
 GAME OVER. Thanks for reading!
+
+https://ibb.co/c3cXX2d
+https://ibb.co/Phn3fzY
+
+<a href="https://ibb.co/c3cXX2d"><img src="https://i.ibb.co/nms88QS/house1.jpg" alt="house1" border="0"></a>
+<a href="https://ibb.co/Phn3fzY"><img src="https://i.ibb.co/hWjht1M/scaffolding.jpg" alt="scaffolding" border="0"></a>

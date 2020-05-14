@@ -105,7 +105,7 @@ const Scaffolding = ({ module, clickHandler }) => {
         break
       case 'tentacle_nine':
         return (
-          <TentacleNine />
+          <TentacleNine clickHandler={clickHandler} />
         )
       default:
         return (

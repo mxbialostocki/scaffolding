@@ -9,6 +9,16 @@ import TentacleTwoLooseLips from './TentacleTwoLooseLips'
 import TentacleThree from './TentacleThree'
 import TentacleThreeYoga from './TentacleThreeYoga'
 import TentacleFour from './TentacleFour'
+import TentacleFourTermites from './TentacleFourTermites'
+import TentacleFive from './TentacleFive'
+import TentacleFiveScaffolding from './TentacleFiveScaffolding'
+import TentacleSix from './TentacleSix'
+import TentacleSixScaffolding from './TentacleSixScaffolding'
+import TentacleSeven from './TentacleSeven'
+import TentacleSevenScaffolding from './TentacleSevenScaffolding'
+import TentacleEight from './TentacleEight'
+import TentacleEightScaffolding from './TentacleEightScaffolding'
+import TentacleNine from './TentacleNine'
 
 const Scaffolding = ({ module, clickHandler }) => {
   const yeah = (vein) => {
@@ -48,6 +58,55 @@ const Scaffolding = ({ module, clickHandler }) => {
           <TentacleFour clickHandler={clickHandler} />
         )
         break
+      case 'tentacle_four_termites':
+        return (
+          <TentacleFourTermites clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_five':
+        return (
+          <TentacleFive clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_five_scaffolding':
+        return (
+          <TentacleFiveScaffolding clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_six':
+        return (
+          <TentacleSix clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_six_scaffolding':
+        return (
+          <TentacleSixScaffolding clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_seven':
+        return (
+          <TentacleSeven clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_seven_scaffolding':
+        return (
+          <TentacleSevenScaffolding clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_eight':
+        return (
+          <TentacleEight clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_eight_scaffolding':
+        return (
+          <TentacleEightScaffolding clickHandler={clickHandler} />
+        )
+        break
+      case 'tentacle_nine':
+        return (
+          <TentacleNine />
+        )
       default:
         return (
           <TentacleOne clickHandler={clickHandler} />

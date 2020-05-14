@@ -1,6 +1,9 @@
 import React from 'react'
 import { Grid, Typography } from '@material-ui/core'
 
+import TentacleOneDepression from './TentacleOneDepression'
+import TentacleTwo from './TentacleTwo'
+
 const TentacleOne = () => {
   return (
     <React.Fragment>

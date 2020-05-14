@@ -1,14 +1,13 @@
 import React from 'react'
-import { Grid, Typography } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 
 // component imports
-import TentacleOne from './TentacleOne'
 
-const Scaffolding = () => {
+const Scaffolding = ({ module, clickHandler }) => {
   return (
     <React.Fragment>
       <Grid container>
-        <TentacleOne />
+        {module}
       </Grid>
     </React.Fragment>
   )

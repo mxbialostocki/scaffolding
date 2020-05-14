@@ -3,10 +3,12 @@ import { Grid } from '@material-ui/core'
 
 import Begin from './Begin'
 import Scaffolding from './Scaffolding'
+import TentacleOne from './TentacleOne'
 
 const Story = () => {
   const [ isInitialLoad, setIsInitialLoad ] = useState(true)
-  const activePage = isInitialLoad ? <Begin clickHandler={setIsInitialLoad}/> : <Scaffolding />
+  const [ activeModule, setActiveModule ] = useState(TentacleOne)
+  const activePage = isInitialLoad ? <Begin clickHandler={setIsInitialLoad}/> : <Scaffolding module={activeModule} clickHandler={setActiveModule}/>
 
   return (
     <Grid container direction="column" alignItems="center">

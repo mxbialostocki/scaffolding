@@ -12,7 +12,7 @@ const TentacleFive = () => {
           {/* sets activeModule state to TentacleSix */}
           <Typography>1. Pick the bolt up. Rolling it around the palm of your hand, you realise that it might be important and hobble over to give it to the nearest builder.</Typography>
         </Grid>
-        {/* sets active Module to NewScaffolding */}
+        {/* sets active Module to TentacleFiveScaffolding */}
         <Grid>
           <Typography>2. Curse at the pain flashing through your ankle. You leave the bolt on the ground and hobble around the corner to get a better photo of the scaffolding.</Typography>
         </Grid>

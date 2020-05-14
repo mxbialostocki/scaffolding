@@ -13,7 +13,6 @@ const TentacleThree = ({ clickHandler }) => {
             <Typography>1. Accept! You’ve already lost money because of the delays, and are worried you won’t be able to resume building until next year.</Typography>
           </Button>
         </Grid>
-        {/* sets active Module to TentacleThreeYoga */}
         <Grid>
           <Button onClick={() => clickHandler('tentacle_three_yoga')}>
             <Typography>2. Thank the charity for their kind offer, but suggest they donate the money to a project which is more community oriented. Perhaps the Vancouver Heritage Foundation? You still receive the fountain.</Typography>

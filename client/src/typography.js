@@ -7,7 +7,7 @@ const typography = {
   fontSize: 18,
   h1: {
     fontSize: '6em',
-    fontWeight: '500'
+    fontWeight: '400'
   },
   h2: {
     fontSize: '2.5em'

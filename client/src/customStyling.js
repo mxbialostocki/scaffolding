@@ -4,19 +4,11 @@ const useStyles = makeStyles((theme) => ({
   homePage: {
     width: '100%',
     height: '100vh',
-    backgroundColor: '#000000',
     justifyContent: 'center',
     [theme.breakpoints.down('sm')]: {
       paddingTop: '3em',
       justifyContent: 'flex-start'
     }
-  },
-  landing: {
-    cursor: 'pointer',
-    width: '100%',
-    height: '100vh',
-    justifyContent: 'center',
-    alignContent: 'center'
   },
   hidden: {
     display: 'none',

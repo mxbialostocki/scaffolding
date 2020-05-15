@@ -4,12 +4,12 @@ import { Grid, Typography, Button } from '@material-ui/core'
 const TentacleOne = ({ clickHandler }) => {
   return (
     <React.Fragment>
-      <Grid container>
+      <Grid container spacing={3} direction="column" justify="center" alignItems="center">
         <Grid item>
           <Typography>Welcome! Please choose an option to build your Super-Suburban Dream Home&trade;. You already have a blueprint and a building site, and are ready to start building! Do you:</Typography>
         </Grid>
         <Grid item>
-          <Button onClick={() => clickHandler('tentacle_one_depression')}>
+          <Button onClick={() => clickHandler('tentacle_one_depression')} style={{ color: '#ffffff' }}>
             <Typography>1. Start from scratch. You visit the local hardware store to enquire about different wood grains. You want everything to be perfect.</Typography>
           </Button>
         </Grid>

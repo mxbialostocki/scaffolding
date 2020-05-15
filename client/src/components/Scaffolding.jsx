@@ -21,7 +21,7 @@ import TentacleEightScaffolding from './TentacleEightScaffolding'
 import TentacleNine from './TentacleNine'
 
 const Scaffolding = ({ module, clickHandler }) => {
-  const yeah = (vein) => {
+  const setModule = (vein) => {
     switch (vein) {
       case 'tentacle_one':
         return (
@@ -107,6 +107,7 @@ const Scaffolding = ({ module, clickHandler }) => {
         return (
           <TentacleNine clickHandler={clickHandler} />
         )
+        break
       default:
         return (
           <TentacleOne clickHandler={clickHandler} />
@@ -116,8 +117,8 @@ const Scaffolding = ({ module, clickHandler }) => {
 
   return (
     <React.Fragment>
-      <Grid container>
-        {yeah(module)}
+      <Grid container item md={8} sm={10} xs={10} style={{ margin: '0 auto', color: '#ffffff' }}>
+        {setModule(module)}
       </Grid>
     </React.Fragment>
   )

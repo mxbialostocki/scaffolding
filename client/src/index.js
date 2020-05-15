@@ -8,7 +8,14 @@ import typography from './typography'
 import App from './components/App.jsx'
 
 const theme = createMuiTheme({
-  typography
+  typography,
+  overrides: {
+    MuiButton: {
+      text: {
+        color: 'white'
+      }
+    }
+  }
 })
 
 render(

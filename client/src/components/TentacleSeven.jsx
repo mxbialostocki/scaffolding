@@ -4,7 +4,7 @@ import { Grid, Typography, Button } from '@material-ui/core'
 const TentacleSeven = ({ clickHandler }) => {
   return (
     <React.Fragment>
-      <Grid container>
+      <Grid container spacing={3} direction='column' justify='center' alignItems='center'>
         <Grid item>
           <Typography>The site manager gives you the silent treatment. The builders work through the storm, and finally, the frame is completed. Sometime in the afternoon, a nearby Elm tree is struck by lightning and catches fire. You watch it for a while, and then realise that the blaze is dangerously close to your site. The flames are getting larger and larger. Do you:</Typography>
         </Grid>

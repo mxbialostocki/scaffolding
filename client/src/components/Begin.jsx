@@ -1,14 +1,14 @@
 import React from 'react'
-import { Typography, Grid } from '@material-ui/core'
+import { Grid, Button } from '@material-ui/core'
 
 const Begin = ({ clickHandler }) => {
   return (
     <React.Fragment>
       <Grid container>
-        <div role='button' onClick={() => clickHandler()}>
-          <Typography variant='h1' style={{ textAlign: 'center' }}>house image goes here</Typography>
+        <Button onClick={() => clickHandler()}>
+          <img src='https://i.ibb.co/nms88QS/house1.jpg' style={{ maxWidth: '300px' }}/>
           <div alt="this page is full of ghosts" style={{ display: 'none', lineHeight: '0' }}></div>
-        </div>
+        </Button>
       </Grid>
     </React.Fragment>
   )

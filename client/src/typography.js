@@ -4,6 +4,7 @@ const typography = {
     'Arial',
     'sans-serif'
   ].join(','),
+  fontSize: 18,
   h1: {
     fontSize: '6em',
     fontWeight: '500'

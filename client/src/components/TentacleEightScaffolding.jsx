@@ -14,7 +14,7 @@ const TentacleEightScaffolding = ({ clickHandler }) => {
           </Button>
         </Grid>
         <Grid item>
-          <Typography>“The scaffold is a pause, an inflection of passage. It accommodates us in a shivering.”</Typography>
+          <Typography style={{ fontStyle: 'italic' }}>“The scaffold is a pause, an inflection of passage. It accommodates us in a shivering.”</Typography>
         </Grid>
       </Grid>
     </React.Fragment>

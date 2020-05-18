@@ -14,7 +14,7 @@ const TentacleSixScaffolding = ({ clickHandler }) => {
           </Button>
         </Grid>
         <Grid item>
-          <Typography>“Firstly, a scaffold lists, in every way.”</Typography>
+          <Typography style={{ fontStyle: 'italic' }}>“Firstly, a scaffold lists, in every way.”</Typography>
         </Grid>
       </Grid>
     </React.Fragment>

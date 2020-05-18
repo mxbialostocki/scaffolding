@@ -14,7 +14,7 @@ const TentacleSevenScaffolding = ({ clickHandler }) => {
           </Button>
         </Grid>
         <Grid item>
-          <Typography>“Scaffolding is analogy. It explains what a wall is without being a wall.”</Typography>
+          <Typography style={{ fontStyle: 'italic' }}>“Scaffolding is analogy. It explains what a wall is without being a wall.”</Typography>
         </Grid>
       </Grid>
     </React.Fragment>

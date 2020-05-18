@@ -9,13 +9,13 @@ const TentacleOne = ({ clickHandler }) => {
           <Typography>Welcome! Please choose an option to build your Super-Suburban Dream Home&trade;. You already have a blueprint and a building site, and are ready to start building! Do you:</Typography>
         </Grid>
         <Grid item>
-          <Button onClick={() => clickHandler('tentacle_one_depression')} style={{ color: '#ffffff' }}>
+          <Button onClick={() => clickHandler('tentacle_one_depression')}>
             <Typography>1. Start from scratch. You visit the local hardware store to enquire about different wood grains. You want everything to be perfect.</Typography>
           </Button>
         </Grid>
         <Grid item>
           <Button onClick={() => clickHandler('tentacle_two')}>
-            <Typography>2. Find a shortcut. Your friend is a builder, and they agree to help you out. There is some leftover stone from another site which they can use to lay the foundations. They can begin site preparations on, say, Monday? You accept their offer.</Typography>
+            <Typography>2. Find a shortcut. Your friend is a builder, and they agree to help you out. There is some leftover stone from another site which they can use to lay the foundations. They can begin site preparations on, say, Monday? Accept their offer!</Typography>
           </Button>
         </Grid>
       </Grid>

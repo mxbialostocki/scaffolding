@@ -14,7 +14,7 @@ const TentacleFiveScaffolding = ({ clickHandler }) => {
           </Button>
         </Grid>
         <Grid item>
-          <Typography variant='h2' style={{ textAlign: 'center' }}>“We could say scaffolding is a furnishing insofar as it supports the desires of our bodies.”</Typography>
+          <Typography style={{ fontStyle: 'italic' }}>“We could say scaffolding is a furnishing insofar as it supports the desires of our bodies.”</Typography>
         </Grid>
       </Grid>
     </React.Fragment>
